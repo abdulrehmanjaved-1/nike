@@ -1,3 +1,7 @@
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
 /**
  * @format
  * @type {import('tailwindcss').Config}
@@ -44,3 +48,4 @@ export default {
 	},
 	plugins: [],
 };
+
